@@ -1,11 +1,12 @@
 .navbar {
+  margin-bottom: 0;
   .navbar-brand {
-  max-width: 320px;
-  width: 100%;
-  height: auto;
+    max-width: 320px;
+    width: 100%;
+    height: auto;
   }
-
-li  a {
-    padding: 1.3em;
-  }
+  
+  li a {
+      padding: 1.3em;
+    }
 }

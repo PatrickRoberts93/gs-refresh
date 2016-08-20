@@ -1,0 +1,13 @@
+.btn-giant {
+  font-size: 18px;
+  font-weight: 700;
+  background: $color-black-lt;
+  color: $color-orange;
+  &:hover,
+  &:focus {
+    color: darken(#3B5998,20%);
+  }
+  &:visited {
+    color: $color-orange;
+  }
+}

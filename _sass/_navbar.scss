@@ -1,11 +1,23 @@
 .navbar {
+  @media screen and (min-width: $grid-float-breakpoint)
+  {
+    padding-right: 100px;
+  }
+  @media screen and (max-width: 860px){
+    font-size: 14px;
+  }
+
   .navbar-brand {
-  max-width: 320px;
-  width: 100%;
-  height: auto;
+    @media screen and (max-width: 860px){
+      max-width: 220px;
+    }
+    max-width: 250px;
+    width: 100%;
+    height: auto;
   }
 
 li  a {
-    padding: 1.3em;
+    padding: 1.3em 0.7em;
   }
+
 }

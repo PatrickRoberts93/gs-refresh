@@ -51,12 +51,15 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "variables",
         "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap",
+        "../bower_components/font-awesome/scss/font-awesome.scss",
         "base",
         "layout",
         "syntax-highlighting",
         "header",
         "footer",
         "carousel",
-        "navbar"
+        "navbar",
+        "social"
 ;

@@ -8,18 +8,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="img/goulburnspeedwaylogo.svg" class="logo"></a>
+      <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}"><img src="{{ "/img/goulburnspeedwaylogo.svg" | prepend: site.baseurl }}" class="logo"></a>
+
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="speedway.html">Speedway</a></li>
-        <li><a href="calender.html">Calender</a></li>
-        <li><a href="latest-news.html">Latest News</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="results.html">Results</a></li>
+        <li class="active"><a href="{{ "/" | prepend: site.baseurl }}">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="{{ "/speedway" | prepend: site.baseurl }}">Speedway</a></li>
+        <li><a href="{{ "/calender" | prepend: site.baseurl }}">Calender</a></li>
+        <li><a href="{{ "/latest-news" | prepend: site.baseurl }}">Latest News</a></li>
+        <li><a href="{{ "/contact" | prepend: site.baseurl }}">Contact</a></li>
+        <li><a href="{{ "/results" | prepend: site.baseurl }}">Results</a></li>
       </ul>
 
       <div class="nav navbar-nav navbar-right">

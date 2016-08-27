@@ -10,3 +10,9 @@
 .address {
   padding: 10px 0;
 }
+
+.sponsors__heading{
+  @media screen and (max-width: 767px){
+    padding-top: 435px;
+  }
+}

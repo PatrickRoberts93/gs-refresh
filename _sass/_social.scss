@@ -8,6 +8,21 @@
   }
 }
 
+.footer .social {
+  .social__facebook{
+    &:hover,
+    &:focus{
+      color: lighten(#3B5998,10%);
+    }
+  }
+  .social__mail{
+    &:hover,
+    &:focus{
+      color: lighten(#428bca,10%);
+    }
+  }
+}
+
 .social {
   .fa {
     padding-right: 10px;

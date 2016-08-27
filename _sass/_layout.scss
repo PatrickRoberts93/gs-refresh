@@ -19,3 +19,14 @@
     padding: 0px;
   }
 }
+
+.post-list {
+  margin: 0;
+  li {
+    list-style: none;
+    margin-bottom: 25px;
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+}

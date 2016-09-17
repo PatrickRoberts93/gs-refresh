@@ -19,3 +19,6 @@ markdown: kramdown
 # Pagination
 paginate: 2
 paginate_path: "/results/page:num/"
+
+# Show future posts
+future: true

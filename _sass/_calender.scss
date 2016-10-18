@@ -1,18 +1,37 @@
-.calender {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  //align-content: space-between;
-  //align-content: space-around;
-
-
   .calender__item {
+
+  }
+
+  .post-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    li {
+      padding: 0 20px 0 20px;
+      width: 33.33%;
+
+    }
+    li:first-child {
+      .calender__date {
+        background: #ff7400;
+      }
+    }
+  }
+
+  .calender__content {
     background: white;
     color: black;
-    text-align: center;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-align: left;
     margin-bottom: 15px;
-    h2 {color: #c1c1c1;}
     padding: 15px;
+    .calender__heading {
+      font-size: 1.250em;
+      border-bottom: solid 5px #95a5a6;
+      margin: 0 0 10px 0;
+    }
     width: 100%;
     @media screen and (max-width: 991px){
       width: 50%;
@@ -22,7 +41,7 @@
     }
   }
 
-  h2.calender__date{
+  .calender__date{
     text-align: center;
     background: #95a5a6;
     color: #ffffff;
@@ -31,5 +50,3 @@
     font-size: 1.5em;
     font-weight: 600;
   }
-
-}

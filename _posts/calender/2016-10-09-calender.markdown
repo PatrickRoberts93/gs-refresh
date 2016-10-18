@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Calender"
+categories: calender
+---
+
+<div class="calender__heading">
+2016 -2017 proposed race dates
+</div>
+
+October - Saturday 22nd
+November - Saturday 12th
+December - Saturday 3rd
+January - Saturday 7th (2017)
+January - Saturday 21st (2017)
+February - Saturday 11th (2017)
+March - Saturday 4th (2017)
+March - Saturday 25th (2017)
+April - Saturday 8th (2017)

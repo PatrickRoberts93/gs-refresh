@@ -8,13 +8,11 @@ title: Calender
   {% for post in site.posts reversed %}
     {% if post.categories contains "calender" %}
     <li>
-      <div class="col-md-4 col-sm-4 col-xs-4">
-      <div class="calender">
+      <div class="calender__item">
         <h2 class="calender__date">{{ post.date | date: "%Y" }}</h2>
-          <div class="calender__item">
+          <div class="calender__content">
             {{ post.content }}
           </div>
-        </div>
     </div>
       </li>
       {% endif %}

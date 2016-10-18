@@ -4,14 +4,16 @@ title:  "Calender"
 categories: calender
 ---
 
+<div class="calender__heading">
 Saturday 8th April
+</div>
 
 Gates Open 2pm Race 4pm
 
-southern super sedans
-f500s
-compacts
-modified sedans
-mod lites
-GPs
-open demo derby
+| southern super sedans |
+| f500s |
+| compacts |
+| modified sedans |
+| mod lites |
+| GPs |
+| open demo derby |

@@ -4,12 +4,14 @@ title:  "Calender"
 categories: calender
 ---
 
-Saturday 7th January
+<div class="calender__heading">
+Saturday 3rd December
+</div>
 
-Sponsored By Auto One Goulburn
+Xmas Cup
 
-super sedans
-f500s
-mod lites
-compacts
-Fender Benders
+| southern super sedans |
+| mod lites |
+| production sedans |
+| GPs |
+| rsa street stocks |
